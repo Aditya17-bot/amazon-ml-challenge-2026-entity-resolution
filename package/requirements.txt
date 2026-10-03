@@ -1,0 +1,11 @@
+# Python >= 3.9
+polars==1.36.1
+numpy==1.26.4
+scipy==1.13.1
+scikit-learn==1.6.1
+sparse_dot_topn==1.2.0
+rapidfuzz==3.13.0
+Unidecode==1.4.0
+lightgbm==4.6.0
+torch==2.5.1       # cross-encoder; our GPU runs used the Kaggle image's preinstalled torch/transformers
+transformers==4.46.3

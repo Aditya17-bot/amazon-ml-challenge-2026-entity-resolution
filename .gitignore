@@ -1,0 +1,29 @@
+# challenge data (not redistributable, ~2.4 GB)
+dataset/
+
+# generated: caches, run outputs, submissions
+work/
+src/work/
+output*/
+probe_*/
+runs/
+submissions/
+kaggle/out_*/
+kaggle/output_*/
+kaggle/code/
+kaggle/code_fr/
+kaggle/err_train/
+kaggle/variants.py
+*.parquet
+*.zip
+*.log
+*.tsv
+!native_map_learned.tsv
+
+# local helpers
+friends/
+utils/
+
+__pycache__/
+*.pyc
+.ipynb_checkpoints/

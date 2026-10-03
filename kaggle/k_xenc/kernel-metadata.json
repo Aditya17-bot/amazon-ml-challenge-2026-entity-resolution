@@ -1,0 +1,20 @@
+{
+ "id": "adityasridhar077/amazon-er-xenc",
+ "title": "amazon-er-xenc",
+ "code_file": "run.py",
+ "language": "python",
+ "kernel_type": "script",
+ "is_private": true,
+ "enable_gpu": true,
+ "enable_tpu": false,
+ "enable_internet": true,
+ "dataset_sources": [
+  "adityasridhar077/amazon-er-code",
+  "adityasridhar077/amazon-er-data"
+ ],
+ "kernel_sources": [
+  "adityasridhar077/amazon-er-train",
+  "adityasridhar077/amazon-er-predict"
+ ],
+ "competition_sources": []
+}
